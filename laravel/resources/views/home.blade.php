@@ -16,6 +16,11 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+
+            </div>
+            <!-- test components -->
+            <div class="w-full h-32 bg-gray-900 my-5 text-white flex justify-center items-center">
+                Test tailwind components
             </div>
         </div>
     </div>
