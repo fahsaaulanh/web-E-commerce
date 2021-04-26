@@ -24,13 +24,13 @@
             </div>
             <!-- nav list -->
             <ul class="flex flex-col justify-center items-start w-full h-3/6 mb-5 text-sm">
-                <li class="w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/dashboard.svg') }}" alt="">Dashboard</a></li>
-                <li class="w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/delivery.svg') }}" alt="">Delivery</a></li>
-                <li class="w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/shopping-cart.svg') }}" alt="">Shopping Cart</a></li>
-                <li class="w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/receipe.svg') }}" alt="">Receipe</a></li>
-                <li class="w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/my-info.svg') }}" alt="">My Information</a></li>
-                <li class="w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/my-wallet.svg') }}" alt="">My Wallet</a></li>
-                <li class="w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/customer-success.svg') }}" alt="">Customer Success</a></li>
+                <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/dashboard.svg') }}" alt="">Dashboard</a></li>
+                <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/delivery.svg') }}" alt="">Delivery</a></li>
+                <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/shopping-cart.svg') }}" alt="">Shopping Cart</a></li>
+                <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/receipe.svg') }}" alt="">Receipe</a></li>
+                <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/my-info.svg') }}" alt="">My Information</a></li>
+                <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/my-wallet.svg') }}" alt="">My Wallet</a></li>
+                <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/customer-success.svg') }}" alt="">Customer Success</a></li>
                 <!-- <li class="pl-5"><a href="#"></a></li> -->
             </ul>
         </div>
