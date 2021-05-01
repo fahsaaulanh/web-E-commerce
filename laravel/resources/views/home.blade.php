@@ -1,4 +1,4 @@
-@extends('layouts.app')
+<!-- @extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -18,11 +18,7 @@
                 </div>
 
             </div>
-            <!-- test components -->
-            <div class="w-full h-32 bg-gray-900 my-5 text-white flex justify-center items-center">
-                Test tailwind components
-            </div>
         </div>
     </div>
 </div>
-@endsection
+@endsection -->

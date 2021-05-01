@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selamat datang {{ Auth::user()->name }}</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{ asset('favicon.ico')}}" type="image/x-icon">
     <!-- tailwindCSS -->
     <link rel="stylesheet" href="{{ asset('css/tailwind.css') }}">
     <!-- fonts -->
@@ -15,7 +17,7 @@
     <div class="flex font-main" id="wrapper">
         <!-- START : Sidebar -->
         <div class="overlay-close hidden fixed top-0 left-0 w-screen h-screen bg-gray-800 bg-opacity-50"></div>
-        <div id="sidebar" class="text-white transition duration-300 fixed md:sticky top-0 left-0 transform -translate-x-full md:translate-x-0 w-72 md:w-96 h-screen bg-gray-800 z-20 flex flex-col items-center justify-start">
+        <div id="sidebar" class="text-white transition duration-300 fixed lg:sticky top-0 left-0 transform -translate-x-full lg:translate-x-0 w-72 md:w-96 h-screen bg-gray-800 z-20 flex flex-col items-center justify-start">
             <!-- user info -->
             <div id="user-info" class="py-10 mb-5 flex flex-col justify-center items-center">
                 <img src="{{ asset('icons/user-ex.png') }}" class="mb-3" alt="User profile">
@@ -31,7 +33,6 @@
                 <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/my-info.svg') }}" alt="">My Information</a></li>
                 <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/my-wallet.svg') }}" alt="">My Wallet</a></li>
                 <li class="nav-link w-full pt-2"><a class="flex pl-5 hover:bg-gray-900 p-2.5 mx-4 rounded-md" href="#"><img class="mr-3" src="{{ asset('icons/customer-success.svg') }}" alt="">Customer Success</a></li>
-                <!-- <li class="pl-5"><a href="#"></a></li> -->
             </ul>
         </div>
         <!-- END : Sidebar -->
