@@ -180,8 +180,7 @@
                     </address>
                 </div>
                 <div class="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
-                    <h6 class="font-bold mb-2">Free Resources</h6>
-                    <p class="mb-4 text-sm">Use our HTML blocks for <strong>FREE</strong>.<br>
+                    <h6 class="font-bold mb-2">Resources</h6>
                     <em>All are MIT License</em></p>
                 </div>
                 <div class="px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
